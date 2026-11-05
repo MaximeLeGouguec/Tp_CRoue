@@ -1,3 +1,5 @@
+#ifndef CROUE_H
+#define CROUE_H
 
 using namespace std;
 class CRoue {
@@ -14,4 +16,5 @@ class CRoue {
         void degonflet(float diminuer);
         void creuver();
         void afficher();
-}
+};
+#endif

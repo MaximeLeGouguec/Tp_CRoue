@@ -41,8 +41,8 @@ int main() {
     */
 
     // Création de deux voitures
-    CVoiture voiture1();
-    CVoiture voiture2();
+    CVoiture voiture1("Peugeot", "208", 100, "Essence");
+    CVoiture voiture2("Renault", "Clio", 90, "Diesel");
 
     // Déplacer la première voiture
     voiture1.deplacer(10.0, 5.0);
